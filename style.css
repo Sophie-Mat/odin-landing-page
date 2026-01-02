@@ -1,0 +1,195 @@
+/* General Rules */
+* {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout Container */
+.navbar,
+.main-section,
+.secondary-section,
+.quote-container, 
+.call-container,
+.footer {
+    padding-inline: 15vw; /* 15% of viewport width on left and right */
+} 
+
+body {
+    background-color: white; 
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 24px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-list {
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Main Section (Hero) Styles */
+.main-section {
+    display: flex;
+    gap: 100px;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 64px 100px;
+}
+
+.main-right, .main-left {
+    flex: 1;
+}
+
+.main-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.main-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-block: 8px 16px;
+}
+
+.main-left button {
+    background-color: #3882F6;
+    font-size: 20px;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-right img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+/* Secondary Section (Cards) Styles */
+.secondary-section {
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondary-section h2 {
+    margin-block: 64px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cards-container {
+    display: flex;
+    gap: 64px;
+    margin-bottom: 64px;
+}
+
+.card:first-child {
+    padding-left: 120px;
+}
+
+.card:last-child {
+    padding-right: 120px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Quote Section Styles */
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-block: 120px;
+    gap: 8px;
+}
+
+.quote {
+    padding-inline: 120px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.attr {
+    padding-inline: 120px;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* CTA Container Styles */
+.call-to-action {
+    background-color: #3882F6;
+    margin-block: 64px;
+    padding: 56px 120px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 32px;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    font-size: 20px;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 12px ;
+    border: 2px solid white;
+    cursor: pointer;
+    flex: none;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 24px;
+}

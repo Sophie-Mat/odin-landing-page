@@ -1,16 +1,9 @@
 # Odin Landing Page
 
-A landing page project from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) Foundations course. This project focuses on practicing CSS Flexbox layouts, alignment, and responsive design principles.
-
-## 🚧 Project Status
-**Work in Progress** - Currently implementing the design and styling.
+A landing page project from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) Foundations course.
 
 ## 📋 Project Overview
-This is a static landing page built as part of The Odin Project curriculum to demonstrate:
-- HTML structure and semantics
-- CSS Flexbox layouts
-- Visual design implementation
-- Responsive design principles
+This project demonstrates CSS Flexbox layouts, responsive design, and clean HTML structure. Built a complete landing page with navigation, hero section, information cards, quote section, and call-to-action following the provided design mockups.
 
 ## 🎨 Design Reference
 The target design and specifications can be found in the `design/` folder:
@@ -24,7 +17,7 @@ The target design and specifications can be found in the `design/` folder:
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3 (Flexbox)
-- Responsive design principles
+- Responsive design with viewport units
 
 ## 📁 Project Structure
 ```
@@ -34,14 +27,8 @@ The target design and specifications can be found in the `design/` folder:
 │   ├── Full Design.png
 │   └── Color and Fonts.png
 ├── images/             # Image assets
-└── README.md           # Project documentation
+└── README.md           
 ```
-
-## 🎯 Learning Goals
-- Practice CSS Flexbox properties
-- Implement a design from mockups
-- Create responsive layouts
-- Understand CSS positioning and alignment
 
 ## 📷 Image Sources
 All images used in this project are from [Pexels](https://www.pexels.com/) and are free to use:
