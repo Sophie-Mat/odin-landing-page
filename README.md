@@ -1,6 +1,8 @@
 # Odin Landing Page
 
-A landing page project from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) Foundations course.
+A landing page project from [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) Foundations course. 
+
+**[🌐 View Live Demo](https://sophie-mat.github.io/odin-landing-page/)**
 
 ## 📋 Project Overview
 This project demonstrates CSS Flexbox layouts, responsive design, and clean HTML structure. Built a complete landing page with navigation, hero section, information cards, quote section, and call-to-action following the provided design mockups.
